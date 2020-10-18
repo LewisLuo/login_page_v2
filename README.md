@@ -23,7 +23,7 @@ v2.0.0新增: 使用cookie-parser以記錄登入訊息
 <code>Express server is running on http://localhost:3000</code>
 
 # 測試帳號
-<code>
+```js
  {
    firstName: 'Tony',
    email: 'tony@stark.com',
@@ -49,4 +49,4 @@ v2.0.0新增: 使用cookie-parser以記錄登入訊息
    email: 'nick@shield.com',
    password: 'password'
  }
- </code>
+```
