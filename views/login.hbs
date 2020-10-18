@@ -1,0 +1,13 @@
+<div class="container">
+  <form action="/" method="POST">
+    <div style="display: flex; flex-direction: column; align-items:center; width: 500px;">
+      <h2>Account Login</h2>
+      <input type="text" class="mt-2" name="email" placeholder="Email">
+      <input type="text" class="mt-2" name="password" placeholder="Password">
+      <button type="submit" class="mt-2">Login in</button>
+      {{#if loginFail}}
+      <div><span style="color:red">Please recheck your email or password.</span></div>
+      {{/if}}
+    </div>
+  </form>
+</div>
